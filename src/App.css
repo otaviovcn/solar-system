@@ -1,3 +1,136 @@
 .App {
   text-align: center;
 }
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  font-family: Roboto , sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  padding: 15px;
+  width: 100vw;
+}
+
+header h1 {
+  color: white;
+  font-family: Poppins , sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
+
+@media ( max-width : 600px ) {
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+}
+
+
+/* .planets-container {
+  display: flex;
+  flex-direction: column;
+} */
+
+/*
+.planets-title {
+  color: rgb(203, 203, 203);
+  font-family: Poppins , sans-serif;
+  font-size: 40px;
+  text-align: center;
+} */
+
+/*
+.planets-cards {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+} */
+
+.missions-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.mission-title {
+  color: white;
+  font-family: Poppins , sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.missions-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.mission-card {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins , sans-serif;
+  margin: 20px;
+  padding: 20px;
+  transition: all 0.1s ease-in-out;
+  width: 300px;
+}
+
+.mission-card:hover {
+  transform: scale(1.05);
+}
+
+.mission-card h3 {
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+}
+
+.mission-card p {
+  margin: 10px 0 0 10px;
+}
+
+@media screen and ( max-width : 1250px ) {
+
+  .planets-cards {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and ( max-width : 600px ) {
+
+  .planets-cards {
+    flex-direction: column;
+  }
+
+  .header {
+    font-size: 32px;
+  }
+
+  .planets-title {
+    font-size: 30px;
+  }
+
+  .mission-title {
+    font-size: 30px;
+  }
+
+}

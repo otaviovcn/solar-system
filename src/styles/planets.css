@@ -1,0 +1,189 @@
+.solar-system-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.solar-system-title {
+  color: white;
+  font-family: Poppins , sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.planets-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.planets-cards img {
+  transition: all 0.5s ease-in-out;
+  width: 10rem;
+}
+
+.planets-cards img:hover {
+  transform: scale(1.3);
+}
+
+.planets-cards img:hover .planet-name {
+  color: white;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.planet-name {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media ( max-width : 600px ) {
+
+  .solar-system-title {
+    font-size: 1.8rem;
+  }
+
+  .planet-name {
+    font-size: 14px;
+  }
+
+  .planets-cards img {
+    transition: all 0.5s ease-in-out;
+    width: 120px;
+  }
+}
+
+
+/* .planet-name:hover {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: center;
+} */
+
+/* .planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+/* .Mercúrio {
+  transition: all 0.5s ease-in-out;
+  width: 85px;
+}
+
+.Mercúrio:hover {
+  transform: scale(1.3);
+}
+
+.Vênus {
+  transition: all 0.5s ease-in-out;
+  width: 140px;
+}
+
+.Vênus:hover {
+  transform: scale(1.3);
+}
+
+.Terra {
+  transition: all 0.5s ease-in-out;
+  width: 170px;
+}
+
+.Terra:hover {
+  transform: scale(1.3);
+}
+
+.Marte {
+  transition: all 0.5s ease-in-out;
+  width: 120px;
+}
+
+.Marte:hover {
+  transform: scale(1.3);
+}
+
+.Júpiter {
+  transition: all 0.5s ease-in-out;
+  width: 250px;
+}
+
+.Júpiter:hover {
+  transform: scale(1.3);
+}
+
+.Saturno {
+  transition: all 0.5s ease-in-out;
+  width: 225px;
+}
+
+.Saturno:hover {
+  transform: scale(1.3);
+}
+
+.Urano {
+  transition: all 0.5s ease-in-out;
+  width: 130px;
+}
+
+.Urano:hover {
+  transform: scale(1.3);
+}
+
+.Netuno {
+  transition: all 0.5s ease-in-out;
+  width: 110px;
+}
+
+.Netuno:hover {
+  transform: scale(1.3);
+}
+
+.planet-name {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+@media ( max-width : 600px ) {
+
+  .Mercúrio {
+    width: 110px;
+  }
+
+  .Vênus {
+    width: 180px;
+  }
+
+  .Terra {
+    width: 210px;
+  }
+
+  .Marte {
+    width: 150px;
+  }
+
+  .Júpiter {
+    width: 250px;
+  }
+
+  .Saturno {
+    width: 200px;
+  }
+
+  .Urano {
+    width: 150px;
+  }
+
+  .Netuno {
+    width: 120px;
+  }
+} */

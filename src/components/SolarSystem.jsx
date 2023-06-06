@@ -16,11 +16,9 @@ const planetList = planets.map((planet, index) => {
 class SolarSystem extends Component {
   render() {
     return (
-      <div data-testid="solar-system">
-        <Title headline="Planetas" />
-        <ul>
-          {planetList}
-        </ul>
+      <div className="solar-system-section" data-testid="solar-system">
+        <div className="solar-system-title"><Title headline="Planetas" /></div>
+        <ul className="planets-cards">{planetList}</ul>
       </div>
     );
   }
